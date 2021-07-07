@@ -1,0 +1,1 @@
+class Train(number: Int)

@@ -1,0 +1,46 @@
+1621997072031:test
+1621997977849:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/0p/6f2bcfqn52gbc37c3kc7qwmw0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/mac/Library/Application Support/JetBrains/IntelliJIdea2020.1/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2018.2.1+4-88400d3f/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1621998924643:listExcercises
+1621998943464:listExeercises
+1621998956514:listExercises
+1622000021178:man
+1622000099762:man e
+1622011793467:listExcercises
+1622011807591:listExercises
+1622015952102:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/0p/6f2bcfqn52gbc37c3kc7qwmw0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/mac/Library/Application Support/JetBrains/IntelliJIdea2020.1/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2018.2.1+4-88400d3f/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+1622195540578:compile
+1622195570594:console
+1622446448888:clear
+1622446463887:listExercises
+1622446476070:nextExercise
+1622446479295:clear
+1622446483775:compile
+1622446499572:sbt console
+1622446534777:console
+1622446611534:saveState
+1622448276684::javap -c Train
+1622448293270:console
+1622449055643:nextExercise
+1622449059934:compile
+1622449069002:new Train(100)
+1622449092830:console
+1622449227545:saveState
+1622602624082:console
+1622619018607:saveState
+1622619030355:nextExercise
+1622619173104:console
+1622619228965:saveState
+1622619233927:nextExercise
+1622619254084:test
+1622619817321:prevExercise
+1622619945871:man e
+1622619959389:man
+1622619965741:man e
+1622620006893:console
+1622620045022:saveState
+1622620051471:nextExercise
+1622620432923:console
+1622621222196:saveState
+1622621918617:console
+1622658440125::quit
+1622658445100:saveState

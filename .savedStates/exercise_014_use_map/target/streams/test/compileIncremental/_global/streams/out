@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 4 products, 3 sources, 7 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/exercises/src/test/scala/com/lightbend/training/scalatrain/TrainSpec.scala, ${BASE}/exercises/src/test/scala/com/lightbend/training/scalatrain/TestData.scala, ${BASE}/exercises/src/test/scala/com/lightbend/training/scalatrain/TimeSpec.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(com.lightbend.training.scalatrain.Train,ModifiedNames(changes = UsedName(finalize,[Default]))), NamesChange(com.lightbend.training.scalatrain.Train$,ModifiedNames(changes = UsedName(finalize,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe com.lightbend.training.scalatrain.Train has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) com.lightbend.training.scalatrain.Train: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) com.lightbend.training.scalatrain.Train.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.lightbend.training.scalatrain.TrainSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.lightbend.training.scalatrain.TestData. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe com.lightbend.training.scalatrain.Train$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) com.lightbend.training.scalatrain.Train$: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) com.lightbend.training.scalatrain.Train$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.lightbend.training.scalatrain.TrainSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of com.lightbend.training.scalatrain.TestData. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

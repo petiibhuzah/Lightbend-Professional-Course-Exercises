@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/src/main/scala/com/lightbend/training/scalatrain/JourneyPlanner.scala:4:47: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Seq[com.lightbend.training.scalatrain.Station][0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.collection.IterableOnce[com.lightbend.training.scalatrain.Train][0m
+[0m[[0m[31merror[0m] [0m[0m  val stations: Set[Train] = trains.flatMap(_.stations)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
