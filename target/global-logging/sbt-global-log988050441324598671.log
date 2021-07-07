@@ -1,0 +1,71 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(new Train(100), Some(ba7e216b-08db-4582-b9d3-784830b03507), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to exercises (in build file:/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/)[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to exercises (in build file:/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to fetch org.scala-sbt.sbt-giter8-resolver % sbt-giter8-resolver_2.12 % 0.13.1. This operation may fail.[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: org.scala-sbt.temp#temp-module-926c08c6fcee167b243e4fa4851a85997a4f15bc;0.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-926c08c6fcee167b243e4fa4851a85997a4f15bc;0.13.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-926c08c6fcee167b243e4fa4851a85997a4f15bc;0.13.1->org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/mac/.ivy2/local/org.scala-sbt.sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.pom (0.13.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1!sbt-giter8-resolver_2.12.pom(pom.original) (1199ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/mac/.ivy2/local/org.scala-sbt.sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/jars/sbt-giter8-resolver_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-sbt/sbt-giter8-resolver/sbt-giter8-resolver_2.12/0.13.1/sbt-giter8-resolver_2.12-0.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-926c08c6fcee167b243e4fa4851a85997a4f15bc;0.13.1->org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-926c08c6fcee167b243e4fa4851a85997a4f15bc;0.13.1->org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-lang#scala-library;2.12.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.12 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.12] org.scala-lang#scala-library;2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-lang#scala-library;2.12.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-lang#scala-library;2.12.12 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-lang#scala-library;2.12.12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-sbt#template-resolver;0.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-sbt#template-resolver;0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-sbt#template-resolver;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-sbt#template-resolver;0.1 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-sbt#template-resolver;0.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-sbt#template-resolver;0.1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.scala-sbt#template-resolver;0.1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.sbt-giter8-resolver#sbt-giter8-resolver_2.12;0.13.1->org.foundweekends.giter8#giter8-launcher_2.12;0.13.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.foundweekends.giter8#giter8-launcher_2.12;0.13.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.foundweekends.giter8#giter8-launcher_2.12;0.13.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/mac/.ivy2/local/org.foundweekends.giter8/giter8-launcher_2.12/0.13.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.foundweekends.giter8#giter8-launcher_2.12;0.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8-launcher_2.12/0.13.1/giter8-launcher_2.12-0.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.foundweekends.giter8#giter8-launcher_2.12;0.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8-launcher_2.12/0.13.1/giter8-launcher_2.12-0.13.1.pom (0.13.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8-launcher_2.12/0.13.1/giter8-launcher_2.12-0.13.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8-launcher_2.12/0.13.1/giter8-launcher_2.12-0.13.1.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

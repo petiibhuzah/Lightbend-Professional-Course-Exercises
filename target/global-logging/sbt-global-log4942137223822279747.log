@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(listExcercises, Some(d3733cff-ae1d-4bcd-9db9-20092b92364b), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: listExcercises (similar: listExercises, gotoFirstExercise, nextExercise)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: listExcercises (similar: exercises)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: listExcercises (similar: licenses)[0m
+[0m[[0m[31merror[0m] [0m[0mlistExcercises[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

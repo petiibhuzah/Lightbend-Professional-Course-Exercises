@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(048de8e0-06e2-4fec-b00f-aee15195b775), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0mGetting the hostname macs-MacBook-Pro.local was slow (5002.505015 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName $(scutil --get LocalHostName).[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTrainSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating a Train[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for a schedule with 0 or 1 elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTimeSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating a Time[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for hours not within 0 and 23[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for minutes not within 0 and 59[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe default arguments for hours and minutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be equal to 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32masMinutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling minus or -[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct difference in minutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 65 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 7 s, completed 12 Jun 2021, 10:44:57[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

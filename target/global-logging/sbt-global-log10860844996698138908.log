@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(9bcb198d-2637-472b-b863-5662b7aab174), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0mGetting the hostname macs-MacBook-Pro.local was slow (5001.962349 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName $(scutil --get LocalHostName).[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTimeSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating a Time[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for hours not within 0 and 23[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for minutes not within 0 and 59[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe default arguments for hours and minutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be equal to 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32masMinutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling minus or -[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct difference in minutes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 925 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 11 s, completed 10 Jun 2021, 07:12:10[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

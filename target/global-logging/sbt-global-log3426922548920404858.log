@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(tes, Some(29d7e8c1-7005-4106-ab22-3b300bb91537), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: tes (similar: tasks, set, new)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: tes[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: tes (similar: test, tags, streams)[0m
+[0m[[0m[31merror[0m] [0m[0mtes[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
