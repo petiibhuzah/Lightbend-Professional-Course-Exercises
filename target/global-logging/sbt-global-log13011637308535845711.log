@@ -1,8 +1,9 @@
-[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
-[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 3 initial tasks for 3 tests.[0m
-[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.scalatrain.JourneyPlannerSpec, sbt.ForkMain$SubclassFingerscan@48140564, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(0100f812-4055-4d09-a42f-bed1172bad1b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0mGetting the hostname macs-MacBook-Pro.local was slow (5001.314844 ms). This is likely because the computer's hostname is not set. You can set the hostname with the command: scutil --set HostName $(scutil --get LocalHostName).[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/target/scala-2.13/test-classes ...[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mJourneyPlannerSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mstations[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
@@ -13,8 +14,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mCalling isShortTrip[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return false for more than one station in between[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return true for zero or one stations in between[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 5 events.[0m
-[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.scalatrain.TrainSpec, sbt.ForkMain$SubclassFingerscan@58ceff1, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTrainSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTrain ice724[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should stop in Nurember[0m[0m
@@ -26,8 +25,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should throw an IllegalArgumentException for a schedule with 0 or 1 elements[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mstations[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be initialized correctly[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
-[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.lightbend.training.scalatrain.TimeSpec, sbt.ForkMain$SubclassFingerscan@7c30a502, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTimeSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mCalling fromJson[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return None for an invalid JSON object[0m[0m
@@ -48,13 +45,11 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return a properly formatted string representation[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mCalling Ordered operators[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should work as expected[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 11 events.[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 212 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 22[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 22, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.scalatrain.TimeSpec[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.scalatrain.JourneyPlannerSpec[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com.lightbend.training.scalatrain.TrainSpec[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 8 s, completed 13 Jul 2021, 04:37:54[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

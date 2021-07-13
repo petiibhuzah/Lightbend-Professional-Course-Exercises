@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/src/test/scala/com/lightbend/training/scalatrain/TimeSpec.scala:15:12: value fromJson is not a member of object com.lightbend.training.scalatrain.Time[0m
+[0m[[0m[31merror[0m] [0m[0m      Time fromJson JsObject(Seq()) shouldBe None[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/src/test/scala/com/lightbend/training/scalatrain/TimeSpec.scala:18:12: value fromJson is not a member of object com.lightbend.training.scalatrain.Time[0m
+[0m[[0m[31merror[0m] [0m[0m      Time fromJson JsObject(Seq("hours" -> JsNumber(9), "minutes" -> JsNumber(30))) shouldEqual Some(Time(9, 30))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/src/test/scala/com/lightbend/training/scalatrain/TimeSpec.scala:21:12: value fromJson is not a member of object com.lightbend.training.scalatrain.Time[0m
+[0m[[0m[31merror[0m] [0m[0m      Time fromJson JsObject(Seq("hours" -> JsNumber(9))) shouldEqual Some(Time(9, 0))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/IdeaProjects/LSL-P-lightbend-scala-language-professional/exercises/exercises/src/test/scala/com/lightbend/training/scalatrain/TimeSpec.scala:28:13: value fromJson is not a member of object com.lightbend.training.scalatrain.Time[0m
+[0m[[0m[31merror[0m] [0m[0m      (Time fromJson time.toJson) shouldEqual Some(time)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
